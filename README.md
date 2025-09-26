@@ -29,6 +29,7 @@ Design principles are the fundamental rules that help you write **clean, scalabl
 - **GRASP** – General Responsibility Assignment Software Patterns  
 
 🔗 Recommended reads:  
+- [SOLID](https://medium.com/@cibofdevs/understanding-solid-principles-in-java-with-real-life-examples-d6fe93b0acc2)  
 - [DRY](https://blog.algomaster.io/p/082450d8-0e7b-4447-a8dc-b7308e45f048)  
 - [KISS](https://blog.algomaster.io/p/21b57678-b351-4ed4-b390-3b6308af2f7d)  
 - [YAGNI](https://blog.algomaster.io/p/8c3c7da7-885b-4a9c-a6e4-70ee02de4772)  
