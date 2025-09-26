@@ -40,8 +40,6 @@ Design principles are the fundamental rules that help you write **clean, scalabl
 
 UML (**Unified Modeling Language**) is a visual way to represent how your classes interact and relate in an object-oriented system. It’s crucial in LLD interviews because it shows how well you can design before writing code.
 
----
-
 ### 🔑 Base UML Concepts
 
 Before drawing UML diagrams, understand these relationships:
@@ -59,5 +57,12 @@ Before drawing UML diagrams, understand these relationships:
 🎥 **Video Explanation:** [UML Class Diagrams](https://www.youtube.com/watch?v=bSrm9RXwBaI)
 
 ---
+
+## 📘 Design Patterns
+
+- **Strategy** –
+- **Factory** –
+- **Singleton** –
+- **Observer** –
 
 This repository will grow with examples, exercises, and implementations of real-world LLD problems.
