@@ -1,0 +1,44 @@
+Conference Room Booking System 
+Description: 
+Your task is to build a simple Conference Room Booking System for an office environment. The system should allow employees to efficiently book available conference rooms for meetings, manage existing bookings, and ensure optimal utilization of the meeting spaces. The goal is to streamline the booking process and prevent scheduling conflicts. 
+Features: 
+1. Register Rooms: Administrators can register conference rooms with their names, capacity (number of people it can accommodate), and available time slots. (Consider 2 types of rooms for now: Small (capacity 5-10) and Large (capacity 11-30), and slots as numbers from 1 to 10, representing hourly blocks from 9 AM to 6 PM). 
+2. Register Employees: Employees can register themselves with their names and department. 
+3. Book Room: Employees should be able to book a conference room for a specific time slot and duration, specifying the number of attendees. The system should automatically find an available room that meets the capacity requirements. 
+       If a booking is made for 20 min , room will be booked for 1 hr.
+4. View Room Schedule: Any user should be able to view the schedule for a specific room, showing all its booked slots and the employee who booked it. 
+5. View Employee Bookings: Employees should be able to view all their own upcoming bookings. 
+Requirements: 
+1. -RegisterRoom() 
+2. -RegisterEmployee() 
+3. -BookRoom() 
+4. -ViewSchedule() // This single requirement encompasses viewing both room and employee schedules. 
+Bonus: 
+1. Optimal Room Suggestion: When an employee requests to book a room, if multiple rooms are available for the requested time and capacity, the system should suggest the smallest available room that meets the capacity. This aims to maximize the utilization of larger rooms for bigger meetings. 
+2. Recurring Bookings: Allow employees to book a room for recurring meetings (e.g., every Monday at 10 AM for 4 weeks). The system should check availability for all recurring instances. 
+Sample Test Case (Illustrative - actual values may vary): 
+● registerRoom('Room A', 'Small', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+● registerRoom('Room B', 'Large', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) 
+● registerEmployee('Alice', 'Marketing') 
+● registerEmployee('Bob', 'Sales') 
+● bookRoom('Alice', 7, 2) // Alice tries to book for 7 attendees, 2 slots 
+○ Expected output: Booking successful for Room A, Slot 2-3. Booking ID: XYZ123 ● bookRoom('Bob', 5, 1) // Bob tries to book for 5 attendees, 1st slot 
+○ Expected output: Booking successful for Room B, Slot 1-2. Booking ID: ABC456 ● bookRoom('Charlie', 2, 3) // Charlie tries to book for 2 attendees, 3rd slots ○ Expected output: Booking successful for Room A, Slot 3-4. Booking ID: PQR789 ● bookRoom('Alice', 7, 2) // Alice tries to book another meeting 
+○ Expected output: No suitable room available for given criteria. 
+● ViewSchedule('Room A') // Example of viewing room schedule 
+○ Expected output: Slot 1: Available, Slot 2-3: Available, Slot 4-6: Booked by Charlie, ... 
+● ViewSchedule('Bob') // Example of viewing employee schedule 
+○ Expected output: Booking ABC456 (Room B, Slot 1) 
+Things to take care: 
+1. Do not use any database or NoSQL store, use in-memory data structures for now.the extracted text from the image: 
+2. Do not create any UI for the application. 
+3. Write a driver class for demo purposes that executes all the commands in one place in the code and includes test cases. 
+4. Put necessary validations/exceptions in place. 
+5. Please prioritize code compilation, execution, and completion. 
+6. Code should be modular, with Object-Oriented design. Maintain good separation of concerns. 
+7. Code should be extensible. It should be easy to add/remove functionality without rewriting the entire codebase. 
+8. Code should handle edge cases properly and fail gracefully. 
+9. Code should be readable. Follow good coding practices: use intuitive variable names, function names, class names, etc. and indent code properly. 
+10. Concurrent handling is not needed, also not expected to solve using algorithms and can simply go for brute force approach. 
+11. Expected time to solve it is 90 minutes. 
+

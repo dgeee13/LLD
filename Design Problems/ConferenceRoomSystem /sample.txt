@@ -1,0 +1,47 @@
+#Main methods:
+#registerRoom
+#registerEmployee
+#bookRoom
+#viewSchedule - room wise and employee wise
+
+#case: Register rooms with all available slots
+# registerRoom('Room A', 'Small', [1,2,3,4,5,6,7,8,9,10])
+# registerRoom('Room B', 'Large', [1,2,3,4,5,6,7,8,9,10])
+
+
+#case: Register rooms with name of already existing room
+# registerRoom('Room B', 'Large', [9,10])
+
+#case: Register rooms with variable availability
+registerRoom('Room C', 'Large', [9,10])
+
+
+# case: Register employees
+registerEmployee('Alice','Marketing')
+registerEmployee('Bob','Sales')
+
+
+# case: Book roomS
+bookRoom('Alice', 7, 2)
+bookRoom('Bob', 11, 2)
+bookRoom('Bob', 11, 2)
+
+
+# case: Book room for unregistered employee
+bookRoom('Charlie', 2, 3)
+
+
+bookRoom('Alice', 7, 10)
+viewSchedule('Room A')
+viewSchedule('Bob')
+registerEmployee('Arya','Sales')
+bookRoom('Arya', 2, 2)
+
+
+# case: Book room called when no suitable rooms are present
+bookRoom('Arya', 29, 2)
+
+viewSchedule('Room B')
+viewSchedule('Arya')
+viewSchedule('Room A')
+exit
