@@ -79,4 +79,11 @@ SOLID is a set of 5 principles that make your code easy to **extend, maintain, a
 
 ---
 
+## 📘 How to Answer a LLD Interview Problem
+
+📄 **Resource:** [Steps](https://blog.algomaster.io/p/how-to-answer-a-lld-interview-problem)  
+
+---
+
+
 This repository will grow with examples, exercises, and implementations of real-world LLD problems.
