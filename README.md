@@ -78,6 +78,23 @@ SOLID is a set of 5 principles that make your code easy to **extend, maintain, a
 📄 **Resource:** [YAGNI](https://blog.algomaster.io/p/8c3c7da7-885b-4a9c-a6e4-70ee02de4772)  
 
 ---
+### **Design Patterns**
+
+📄 **Resource:** [Patterns with Code Examples](https://github.com/Anchals24/Low-Level-Design)
+
+### Popular Design Patterns in Java
+
+| # | Pattern | Description | Type | Reference |
+|---|----------|--------------|--------|------------|
+| 1️⃣ | **Singleton** | Ensures only one instance of a class exists and provides a global access point. | Creational | [DigitalOcean - Singleton](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples) |
+| 2️⃣ | **Factory** | Creates objects without exposing the instantiation logic to the client. | Creational | [DigitalOcean - Factory](https://www.digitalocean.com/community/tutorials/factory-design-pattern-in-java) |
+| 3️⃣ | **Builder** | Simplifies object creation with complex constructors by using a step-by-step approach. | Creational | [DigitalOcean - Builder](https://www.digitalocean.com/community/tutorials/builder-design-pattern-in-java) |
+| 4️⃣ | **Decorator** | Adds new functionality to an object dynamically without altering its structure. | Structural | [DigitalOcean - Decorator](https://www.digitalocean.com/community/tutorials/decorator-design-pattern-in-java-example) |
+| 5️⃣ | **Observer** | Defines a one-to-many dependency so that when one object changes state, all dependents are notified. | Behavioral | [GeeksforGeeks - Observer](https://www.geeksforgeeks.org/system-design/observer-pattern-set-1-introduction/) |
+| 6️⃣ | **Strategy** | Enables selecting an algorithm’s behavior at runtime through interchangeable strategies. | Behavioral | [DigitalOcean - Strategy](https://www.digitalocean.com/community/tutorials/strategy-design-pattern-in-java-example-tutorial) |
+| 7️⃣ | **Command** | Encapsulates a request as an object, thereby allowing for parameterization and queuing of requests. | Behavioral | [DigitalOcean - Command](https://www.digitalocean.com/community/tutorials/command-design-pattern) |
+
+---
 
 ## 📘 How to Answer a LLD Interview Problem
 
